@@ -1,0 +1,35 @@
+# Dependências
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Arquivos de ambiente (credenciais, configs locais)
+.env
+.env.*
+
+# Build (caso você adicione futuramente)
+dist/
+build/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# Arquivos temporários
+*.tmp
+*.temp
+
+# Coverage de testes
+coverage/
+
+# Cache do Node (às vezes aparece com --watch)
+*.tsbuildinfo
