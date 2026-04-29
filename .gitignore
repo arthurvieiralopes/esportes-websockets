@@ -1,35 +1,28 @@
-# Dependências
+# dependencies
 node_modules/
 
-# Logs
-logs/
+# env (NUNCA subir isso)
+.env
+
+# logs
+logs
 *.log
 npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
 
-# Arquivos de ambiente (credenciais, configs locais)
-.env
-.env.*
-
-# Build (caso você adicione futuramente)
+# build / dist
 dist/
 build/
 
-# Sistema operacional
+# OS
 .DS_Store
 Thumbs.db
 
-# IDE / Editor
+# IDE
 .vscode/
 .idea/
 
-# Arquivos temporários
-*.tmp
-*.temp
+# drizzle (opcional versionar só migrations, não meta)
+drizzle/meta/
 
-# Coverage de testes
-coverage/
-
-# Cache do Node (às vezes aparece com --watch)
-*.tsbuildinfo
+# cache
+.cache/
